@@ -1,0 +1,34 @@
+"""
+Created on Sun Oct  3 21:16:24 2021
+
+@author: User
+"""
+
+import math
+print("tugas praktikum 2 algoritma dasar")
+
+a = float(input("nilai a = "))
+b = float(input("nilai b = "))
+
+print("ini penjumlahan menggunakan math module : ",math.pow(a, b))
+
+hasil  = a + b
+print(" hasil a ditambah b adalah",hasil)
+
+hasil = a - b
+print(" hasil a dikurang b adalah",hasil)
+
+hasil = a * b
+print("hasil a dikali b adalah",hasil)
+
+hasil = a / b
+print("hasil a dibagi b adalah",hasil)
+
+hasil = a % b
+print("hasil sisa pembagian a dan b adalah",hasil)
+
+hasil = math.log10(a)
+print("jumlah log a dan b adalah",hasil)
+
+hasil = a ** b
+print("jumlah a pangkat b adalah",hasil)
